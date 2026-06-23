@@ -244,7 +244,6 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/davidufe/pipeline_analise_fraudes_pyspark.git
-cd trabalho
 ```
 
 Crie e ative um ambiente virtual:

@@ -2,9 +2,9 @@ spark:
   app_name: "Analise de Fraude"
 
 paths:
-  pagamentos: "./trabalho/data/input/dataset-json-pagamentos/data/pagamentos"
-  pedidos: "./trabalho/data/input/dataset-csv-pedidos/data/pedidos"
-  output: "./trabalho/data/output/relatorio"
+  pagamentos: "./data/input/dataset-json-pagamentos/data/pagamentos"
+  pedidos: "./data/input/dataset-csv-pedidos/data/pedidos"
+  output: "./data/output/relatorio"
   
 file_options:
   pagamentos_json:
