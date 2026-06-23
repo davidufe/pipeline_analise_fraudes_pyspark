@@ -1,0 +1,7 @@
+import yaml
+
+
+def carregar_config(path: str = "./trabalho/config/settings.yaml") -> dict:
+    """Carrega o arquivo de configuraçao YAML"""
+    with open(path, "r") as file:
+        return yaml.safe_load(file)
